@@ -1,0 +1,35 @@
+.top-bar, .top-bar-section
+{
+	background: LightSlateGray ;
+}
+
+.title
+{
+	font-size: 25px;
+}
+
+.top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button)
+{
+	background: transparent;   
+	transition: background 1s ease, color 0.5s ease;
+	color: DarkSlateGray  ;
+	font-size: 18px;
+	min-width: 100px;
+	text-align: center;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover
+{
+	background: rgb(132, 209, 234);
+	color: white;
+}
+
+#meteoRtn
+{
+	text-align: center;
+}
+
+#meteoRtn b,p,i 
+{
+	display: block;
+}

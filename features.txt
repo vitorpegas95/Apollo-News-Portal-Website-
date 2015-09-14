@@ -1,0 +1,10 @@
+-News 
+-Weather : Done
+-TV Guide : Done
+
+Tech:
+Foundation?
+SASS
+HTML5
+PHP
+JS
