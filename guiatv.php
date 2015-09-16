@@ -31,11 +31,11 @@
 			</div>
 			
 			<div>
-				<a href="guiatv.php?sigla=FOX" class="btn btn-default">FOX</a>
-				<a href="guiatv.php?sigla=AXN" class="btn btn-default">AXN</a>
-				<a href="guiatv.php?sigla=HOLLW" class="btn btn-default">HOLLW</a>
-				<a href="guiatv.php?sigla=NGC" class="btn btn-default">NGC</a>
-				<a href="guiatv.php?sigla=TVI24" class="btn btn-default">TVI24</a>
+				<a href="guiatv.php?sigla=FOX" class="button">FOX</a>
+				<a href="guiatv.php?sigla=AXN" class="button">AXN</a>
+				<a href="guiatv.php?sigla=HOLLW" class="button">HOLLW</a>
+				<a href="guiatv.php?sigla=NGC" class="button">NGC</a>
+				<a href="guiatv.php?sigla=TVI24" class="button">TVI24</a>
 			</div>
 			
 			<hr>

@@ -92,7 +92,7 @@ class Weather
     
     function getTempInterval()
     {
-        return $this->KtC($this->json->main->temp_min) . "&ordm;C &nbsp;/ &nbsp;" . $this->KtC($this->json->main->temp_max) . "&ordm;C";    
+        return round($this->KtC($this->json->main->temp_min), 0) . "&ordm;C &nbsp;/ &nbsp;" . round($this->KtC($this->json->main->temp_max),0) . "&ordm;C";    
     }
     
     function getCountry()
