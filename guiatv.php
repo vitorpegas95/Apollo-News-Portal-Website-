@@ -30,6 +30,13 @@
 				</div>
 			</div>
 			
+			<div>
+				<a href="guiatv.php?sigla=FOX" class="btn btn-default">FOX</a>
+				<a href="guiatv.php?sigla=AXN" class="btn btn-default">AXN</a>
+				<a href="guiatv.php?sigla=HOLLW" class="btn btn-default">HOLLW</a>
+				<a href="guiatv.php?sigla=NGC" class="btn btn-default">NGC</a>
+				<a href="guiatv.php?sigla=TVI24" class="btn btn-default">TVI24</a>
+			</div>
 			
 			<hr>
 			

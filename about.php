@@ -60,6 +60,6 @@
 		$(document).foundation();
 	</script>
 	
-	<script src="js/getNews.js"></script>
+	<script src="js/getWeather.js"></script>
 </body>
 </html>
