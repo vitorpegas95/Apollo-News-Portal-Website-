@@ -36,6 +36,7 @@
 				<a href="guiatv.php?sigla=HOLLW" class="button">HOLLW</a>
 				<a href="guiatv.php?sigla=NGC" class="button">NGC</a>
 				<a href="guiatv.php?sigla=TVI24" class="button">TVI24</a>
+				<a href="guiatv.php?sigla=DISCV" class="button">DISCV</a>
 			</div>
 			
 			<hr>

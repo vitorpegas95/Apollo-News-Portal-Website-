@@ -33,10 +33,10 @@ $input.on('keydown', function () {
 //user is "finished typing," do something
 function doneTyping (def) {
 	
-	if(def == "")
-	{
+	if(def == undefined)
 		def = $("#channelInput").val();
-	}
+	else if(def.length < 3)
+		def = $("#channelInput").val();
 	
   $.ajax({
 		url: "config/requestHandler.php?ajaxGetTVGuide=" + def,
@@ -56,6 +56,10 @@ function doneTyping (def) {
 			$("#tvGuide").html(html);
 			
 			$("#tvGuide tr:first").css("background", "LightGray");
+		},
+		error(xhr,status,error)
+		{
+			console.error("Error : " + error);			
 		}
 	});
 }

@@ -1,6 +1,8 @@
 <?php
 class Weather
 {
+	private $APIKEY = "";
+	
 	private $json;
 	private $json_forecast;
 	private $url_cur;
@@ -19,13 +21,13 @@ class Weather
     
     function getWeather()
     {
-	$this->json = json_decode(file_get_contents($this->url_cur . $this->city));   
+		$this->json = json_decode(file_get_contents($this->url_cur . $this->city . "&APPID=" . $this->APIKEY));   
     }
     
     function getWeatherForecast()
     {
-	$this->json_forecast = json_decode(file_get_contents($this->url_forecast . $this->city));   
-	    
+		$this->json_forecast = json_decode(file_get_contents($this->url_forecast . $this->city . "&APPID=" . $this->APIKEY)));   
+		
 		$this->forecast = array();
         foreach($this->json_forecast->list as $f)
         {

@@ -27,10 +27,10 @@
 			<p>Este portal foi criado com recurso a v&aacute;rias API open source:</p>
 			
 			<ul>
-				<li><a href="http://developers.blogs.sapo.pt/4736.html">SAPO TV Web Service</a></li>
-				<li><a href="http://www.cmjornal.xl.pt/rss.aspx">Correio da Manh&atilde; RSS Feed</a></li>
-				<li><a href="http://openweathermap.org/current">Meteorologia by OpenWeatherMap</a></li>
-				<li><a href="#">Bolsa de valores (Brevemente)</a>
+				<li><a target="_blank" href="http://developers.blogs.sapo.pt/4736.html">SAPO TV Web Service</a></li>
+				<li><a target="_blank" href="http://www.cmjornal.xl.pt/rss.aspx">Correio da Manh&atilde; RSS Feed</a></li>
+				<li><a target="_blank" href="http://openweathermap.org/current">Meteorologia by OpenWeatherMap</a></li>
+				<li><a target="_blank" href="#">Bolsa de valores (Brevemente)</a>
 			</ul>
 			
 			<p>Tecnologias usadas: </p>

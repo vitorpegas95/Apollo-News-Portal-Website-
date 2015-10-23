@@ -51,10 +51,7 @@ def = $("#cityInput").val();
 		url: "config/requestHandler.php?ajaxGetWeather=" + def,
 		success: function(result)
 		{
-			
-			
 			var rtn = jQuery.parseJSON(result);
-			console.log(rtn);
 			
 			var html = "";
 			
@@ -83,21 +80,10 @@ def = $("#cityInput").val();
 			
 			$("#city").html($("#cityInput").val());
 			$("#weatherGrid").html(html);
-			
-			/*
-			var html = "";
-			for(var i= 0; i < rtn.length; i++)
-			{
-				html +='<tr>';
-				html +='<td>' + rtn[i].startTime + ' > ' + rtn[i].endTime + '</td>';
-				html +='<td>' + rtn[i].title + '</td>';
-				html +='</tr>';
-			}
-			
-			$("#tvGuide").html(html);
-			
-			$("#tvGuide tr:first").css("background", "LightGray");
-			*/
+		},
+		error(xhr,status,error)
+		{
+			console.error("Error : " + error);			
 		}
 	});
 }
